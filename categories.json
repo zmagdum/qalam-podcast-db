@@ -1,0 +1,171 @@
+[
+    {
+      "title": "Ramadan Reflections",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/WhatsApp-Image-2017-05-27-at-5.03.16-AM-200x200.jpg",
+      "speakers": "Abdul Nasir Jangda",
+      "feedUrl": "http://feeds.feedburner.com/QalamRamadanReflections"
+    },
+    {
+      "title": "40 Ahadith of Imam Nawawi",
+      "artwork": "40hadith",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/Qalam40Ahadith"
+    },
+    {
+      "title": "The Chosen One",
+      "artwork": "chosen_one",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": ""
+    },
+    {
+      "title": "The Paths to Paradise",
+      "artwork": "paths_paradise",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": ""
+    },
+    {
+      "title": "Purification of the Heart",
+      "artwork": "purification_heart",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": "http://feeds.feedburner.com/QalamPurificationOfTheHeart"
+    },
+    {
+      "title": "Shama’il – The Prophetic Personality",
+      "artwork": "shamaail_updated",
+      "tokens": [
+        "Shamail Muhammadiyah"
+      ],
+      "speakers": "Abdul Nasir Jangda",
+      "feedUrl": "http://feeds.feedburner.com/QalamShamail"
+    },
+    {
+      "title": "Divine",
+      "artwork": "divine",
+      "speakers": "Abdul Rahman Murphy",
+      "feedUrl": "http://feeds.feedburner.com/QalamDivine"
+    },
+    {
+      "title": "Heartwork",
+      "artwork": "heartwork",
+      "speakers": "Qalam Instructors",
+      "feedUrl": "http://feeds.feedburner.com/QalamHeartwork"
+    },
+    {
+      "title": "Sufficient Answer",
+      "artwork": "sufficient_answer",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": "http://feeds.feedburner.com/QalamSufficientAnswer"
+    },
+    {
+      "title": "Quranic Reflections",
+      "artwork": "quranic_reflections",
+      "speakers": "Qalam Instructors",
+      "feedUrl": "http://feeds.feedburner.com/QalamQuranicReflections"
+    },
+    {
+      "title": "Lives of The Prophets",
+      "artwork": "lives_prophets",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamLivesOfTheProphets"
+    },
+    {
+      "title": "Khutbah",
+      "artwork": "khutbahs",
+      "speakers": "Qalam Instructors",
+      "tokens": [
+        "Khutba"
+      ],
+      "feedUrl": "http://feeds.feedburner.com/QalamKhutbahs"
+    },
+    {
+      "title": "Companionship",
+      "artwork": "rights_companionship",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": "http://feeds.feedburner.com/QalamCompanionship"
+    },
+    {
+      "title": "Seerah – Life of the Prophet",
+      "artwork": "seerah_jangda",
+      "speakers": "Abdul Nasir Jangda",
+      "tokens": [
+        "Seerah"
+      ],
+      "feedUrl": "http://feeds.feedburner.com/QalamSeerah"
+    },
+    {
+      "title": "Suhbah Retreat",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": "http://feeds.feedburner.com/QalamSuhbahRetreat"
+    },
+    {
+      "title": "Tarawih Gems",
+      "artwork": "tarawihgems",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamTarawehGems"
+    },
+    {
+      "title": "The Beginning of Guidance",
+      "artwork": "begining_guidance",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamBeginningOfGuidance"
+    },
+    {
+      "title": "The Hangout",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/hangout-200x200.jpg",
+      "speakers": "Abdul Rahman Murphy",
+      "feedUrl": "http://feeds.feedburner.com/QalamHangout",
+      "tokens": [
+        "Qalam Hangout"
+      ]
+    },
+    {
+      "title": "Uncategorized",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Qalam Instructors"
+    },
+    {
+      "title": "Qalam Qiyam",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": "http://feeds.feedburner.com/QalamQiyam"
+    },
+    {
+      "title": "Divine Parables",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamDivineParables"
+    },
+    {
+      "title": "Legacies",
+      "artwork": "legacies",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamLegacies"
+    },
+    {
+      "title": "Ready For Ramadan",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": "http://feeds.feedburner.com/QalamReadyForRamadan"
+    },
+    {
+      "title": "Tafsir Tuesdays",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Abdul Nasir Jangda",
+      "tokens": [
+        "Tafsir Class"
+      ]
+    },
+    {
+      "title": "The Pursuit of Knowledge",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/pursuitofknowledge-200x200.jpg",
+      "speakers": "",
+      "feedUrl": "http://feeds.feedburner.com/QalamPursuitOfKnowledge"
+    },
+    {
+      "title": "Ramadan Recitation & Reflection",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
+      "speakers": "Qalam Instructors"
+    }
+]
+  
