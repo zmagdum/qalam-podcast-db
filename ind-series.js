@@ -19,43 +19,50 @@ var db = firebase.firestore();
 
 let speakers = {}
 JSON.parse(fs.readFileSync('scholors.json')).forEach(spkr => {
-//    db.collection("scholors").doc(spkr.name).set(spkr);
+    db.collection("scholors").doc(spkr.name).set(spkr);
     speakers[spkr.name] = spkr
-});        
-        
-rssParser.parseURL("http://feeds.feedburner.com/QalamPodcast").then(feed => {
-    let categories = {}
-    console.log(feed.title, feed.items.length);
-    feed.items.forEach(item => {
-        var episode = {
-            title: item.title,
-            shortTitle: shortTitle(item.title, element.title),
-            pubDate: Date.parse(item.pubDate),
-            type: item.enclosure ? item.enclosure.type : 'podcast',
-            content: item.content,
-            contentSnippet: item.contentSnippet,
-            isoDate: Date.parse(item.isoDate),
-            subtitle: item.itunes && item.itunes.subtitle ? item.itunes.subtitle : 'bad-subtitle', 
-            duration: parseDuration(item.itunes.duration),
-            image: item.itunes && item.itunes.image ? item.itunes.image : 'bad-image',
-            keywords: item.itunes && item.itunes.keywords ? item.itunes.keywords : 'bad-keywords',
-            streamUrl: item.enclosure ? item.enclosure.url : 'nourl',
-            category: element.title,
-            speaker: getSpeaker(item.categories, speakers),
-            updated: Date.now(), 
-        }
-        id = uuidv5(item.enclosure ? item.enclosure.url : 'bad', MY_NAMESPACE);
-        if (episode.speaker == "unknown") {
-            getSpeaker(item.categories, speakers)
-            console.log("no speaker", item, episode)
-        }
-//        db.collection("episodes").doc(id).set(episode);
-    });
-    console.log(categories)
 });
+let rawdata = fs.readFileSync('categories.json');
+let series = JSON.parse(rawdata);
+series.forEach(element => {
+    element.updated = Date.now()
+    // db.collection("catagories").doc(element.title).set(element);
+    // console.log('added/updated category' + element.title);
 
+    if (element.feedUrl /*&& element.artwork == '40hadith'*/) {
+        rssParser.parseURL(element.feedUrl).then(feed => {
+            let categories = {}
+            console.log(feed.title, feed.items.length);
+            feed.items.forEach(item => {
+                var episode = {
+                    title: item.title,
+                    shortTitle: shortTitle(item.title, element.title),
+                    pubDate: Date.parse(item.pubDate),
+                    type: item.enclosure ? item.enclosure.type : 'podcast',
+                    content: item.content,
+                    contentSnippet: item.contentSnippet,
+                    isoDate: Date.parse(item.isoDate),
+                    subtitle: item.itunes && item.itunes.subtitle ? item.itunes.subtitle : 'bad-subtitle', 
+                    duration: parseDuration(item.itunes.duration),
+                    image: item.itunes && item.itunes.image ? item.itunes.image : 'bad-image',
+                    keywords: item.itunes && item.itunes.keywords ? item.itunes.keywords : 'bad-keywords',
+                    streamUrl: item.enclosure ? item.enclosure.url : 'nourl',
+                    category: element.title,
+                    speaker: getSpeaker(item.categories, speakers),
+                    updated: Date.now(), 
+                }
+                id = uuidv5(item.enclosure ? item.enclosure.url : 'bad', MY_NAMESPACE);
+                if (episode.speaker == "unknown") {
+                    getSpeaker(item.categories, speakers)
+                    console.log("no speaker", item, episode)
+                }
+                db.collection("episodes").doc(id).set(episode);
+            });
+            console.log(categories)
+        });
+    }
 
-
+}); 
 
 const getSpeaker = function(categories, speakers) {
     if (categories) {
