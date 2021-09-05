@@ -166,6 +166,80 @@
       "title": "Ramadan Recitation & Reflection",
       "artwork": "http://www.qalaminstitute.org/wp-content/uploads/powerpress/Qalam-pod-02.png",
       "speakers": "Qalam Instructors"
+    },
+    {
+      "title": "Legacies",
+      "artwork": "legacies",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "http://feeds.feedburner.com/QalamLegacies"
+    },
+    {
+      "title": "For Those Seeking Guidance",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/ftsg.png",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": ""
+    },
+    {
+      "title": "Stories of the Qur'an",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/sotq.png",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": "",
+      "tokens": ["Stories of the Quran", "Stories of the Qur’an"]
+    },
+    {
+      "title": "The Message of the Qur’an",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/MicrosoftTeams-image-1.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": ""
+    },
+    {
+      "title": "Du’as from the Qur’an",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/duas-from-quran.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": "",
+      "tokens": ["Duas from the Qur’an"]
+    },
+    {
+      "title": "Ramadan FAQs",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/ramadan_faqs.png",
+      "speakers": "Abdul Nasir Jangda",
+      "feedUrl": ""
+    },
+    {
+      "title": "Forgiveness from Allah",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/forgivness.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": ""
+    },
+    {
+      "title": "Isra wal Miraj",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/tafsir_tuesdays.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": ""
+    },
+    {
+      "title": "The Five",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/tafsir_tuesdays.png",
+      "speakers": "Safi Khan",
+      "feedUrl": ""
+    },
+    {
+      "title": "The Two Migrations",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/tafsir_tuesdays.png",
+      "speakers": "Mikaeel Ahmed Smith",
+      "feedUrl": ""
+    },
+    {
+      "title": "Qalam Conference",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/tafsir_tuesdays.png",
+      "speakers": "Qalam Instructors",
+      "feedUrl": ""
+    },
+    {
+      "title": "Islamic Manners",
+      "artwork": "http://www.qalaminstitute.org/wp-content/uploads/Islamic-Manners.png",
+      "speakers": "Mufti Hussain Kamani",
+      "feedUrl": ""
     }
 ]
   
